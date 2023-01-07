@@ -1,4 +1,5 @@
- @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');    
+ @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');   
 * {
     margin: 0;
     padding: 0;
@@ -15,11 +16,11 @@ h1{
 h2{
     font-size: 46px;
     line-height: 54px;
-    color: rgb(176, 189, 97);
+    color: rgb(202, 160, 46);
 }
 h4{
     font-size: 20px; 
-    color: rgb(208, 148, 148);
+    color: rgb(109, 51, 51);
 } 
 h6{
     font-weight: 700;
@@ -57,7 +58,11 @@ button.white{
 }
 body {
     width:100%;
-}  
+} 
+
+img.logo{
+    image-resolution: 250px;
+}
 /*header start*/
 
 #header {
@@ -65,7 +70,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #e3e6f3;
+    background: #20317e;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.0 6);
     z-index: 999;
     position: sticky;
@@ -87,22 +92,22 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: white;
     transition: 0.3s ease;
 }
 #navbar li a:hover{
-    color: #088178;
+    color: #e2b63d;
 }
 #navbar li a:hover,
 #navbar li a.active{
-    color: #088178;
+    color: #e2b63d;
 }
 #navbar li a.active::after,
 #navbar li a:hover::after{
     content: "";
     width: 30%;
     height: 2px;
-    background: #088178;
+    background: #e2b63d;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -117,7 +122,7 @@ body {
 
 /*home page*/
 #hero{
-    background-image: url(img/hero1.jpg);
+    background-image: url(img/hero1.jpeg);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -138,14 +143,14 @@ body {
 }
 #hero button{
     background-image: url(img/button.png);
-    background-color:transparent;
-    color: #088178;
+    background-color: transparent;
+    color: #094945;
     border: 0;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
     cursor: pointer;
-    font-weight:700 ;
-    font-size: 15px;
+    font-weight:900 ;
+    font-size: 20px;
 }
 #feature{
     display: flex;
@@ -217,6 +222,9 @@ body {
     margin: 15px 0;
     transition: 0.2s ease;
     position: relative;
+}
+#product1 .pro i{
+    position: bottom;
 }
 #product1 .pro:hover{
     box-shadow:20px 20px 30px rgba(0,0,0,0.6);
@@ -378,10 +386,10 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(img/newsletter/2.webp);
+    /* background-image: url(img/newsletter/2.webp); */
     background-repeat: no-repeat;
     background-position: 20% 30%;
-    background-color: #ff9580;
+    background-color: #4b4240;
 }
 #newsletter h4{
     font-size: 22px;
@@ -505,7 +513,7 @@ footer .copyright{
         align-items: center;
     }
     #mobile i{
-        color: #1a1a1a;
+        color: white;
         font-size: 24px;
         padding-left: 20px;
         padding: 10px;
