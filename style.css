@@ -566,6 +566,45 @@ footer .copyright{
     #newsletter .form{
         width: 80%;
     }
+
+        .container{
+        width: 80%;
+        display: block;
+        margin:auto;
+        padding-top:50px;
+    }
+    .content-section{
+        float:none;
+        width:100%;
+        display: block;
+        margin:auto;
+    }
+    .image-section{
+        float:none;
+        width:100%;
+        
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin:auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding:9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+    
+    
      
 }
 @media  (max-width: 477px) {
@@ -624,93 +663,6 @@ footer .copyright{
     footer p {
         text-align: start;
     }
-
-}
-
-/* shop-page */
-
-#page-header{
-    background-image: url(/img/hero2.jpg);
-    height: 40vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-#pagination{
-    text-align: center;
-
-}
-#pagination a{
-    text-decoration: none;
-    background-color: #088178;
-    padding: 15px 20px;
-    border-radius: 4px;
-    color: #fff;
-    font-weight: 600;
-}
-#pagination a i{
-    font-size: 16px;
-    font-weight: 600;
-    
-}
-/* single Product */
-#prodetails{
-    display: flex;
-    margin-top: 20px;
-
-}
-
-
-#prodetails .single-pro-image{
-    width: 40%;
-    margin-right: 50px;
-
-}
-.small-img-group{
-    display: flex;
-    justify-content: space-between;
-
-}
-.small-img-col{
-    flex-basis: 24%;
-    cursor: pointer;
-}
-
-#prodetails .single-pro-details{
-    width: 50%;
-    padding-top: 40px ;
-
-}
-
-#prodetails .single-pro-details h4{
-    padding:  40px 0 36px 0;
-}
-#prodetails .single-pro-details h2{
-    font-size: 26px;
-}
-#prodetails .single-pro-details input{
-    width: 50px;
-    height: 47px;
-    padding-left: 10px;
-    font-size: 16px;
-    margin-right: 10px;
-
-
-}
-#prodetails .single-pro-details input:focus{
-    outline: none ;
-}
-#prodetails .single-pro-details button{
-    background: #088178;
-    color: #e8f6ea;
-}
-#prodetails .l1{
-    line-height:  30px;
 
 }
 
@@ -781,43 +733,4 @@ footer .copyright{
 }
 .content-section .social i:hover{
 	color:#3d3d3d;
-}
-@media screen and (max-width: 768px){
-	.container{
-	width: 80%;
-	display: block;
-	margin:auto;
-	padding-top:50px;
-}
-.content-section{
-	float:none;
-	width:100%;
-	display: block;
-	margin:auto;
-}
-.image-section{
-	float:none;
-	width:100%;
-	
-}
-.image-section img{
-	width: 100%;
-	height: auto;
-	display: block;
-	margin:auto;
-}
-.content-section .title{
-	text-align: center;
-	font-size: 19px;
-}
-.content-section .content .button{
-	text-align: center;
-}
-.content-section .content .button a{
-	padding:9px 30px;
-}
-.content-section .social{
-	text-align: center;
-}
-
 }
